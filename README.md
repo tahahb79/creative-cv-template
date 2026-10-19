@@ -1,6 +1,16 @@
 # Creative CV Portfolio
 
-A lightweight, configuration-driven personal portfolio and CV website built with HTML, vanilla JavaScript, Tailwind CSS, and GitHub Pages. Fork the repository, update the JSON configuration files, and publish a personal portfolio without changing the page templates.
+A lightweight, configuration-driven personal portfolio and CV website built with HTML, vanilla JavaScript, Tailwind CSS, and GitHub Pages. Create a repository from this template, update the JSON configuration files, and publish a personal portfolio without changing the page templates.
+
+**Live demo:** <https://tahahb79.github.io/creative-cv-template/>
+
+## Quick Start
+
+1. Click **Use this template** → **Create a new repository** at the top of this page.
+   - Name it `your-username.github.io` to publish at `https://your-username.github.io/`, or use any other name to publish at `https://your-username.github.io/repository-name/`.
+2. In the new repository, open **Settings → Pages** and set **Source** to **GitHub Actions**.
+3. Edit the JSON files in `config/` (directly on GitHub or locally) and replace the placeholder images in `images/`.
+4. Every push to `main` rebuilds and redeploys the site. If the first run failed because Pages was not enabled yet, re-run it from the **Actions** tab.
 
 ## Features
 
@@ -35,13 +45,17 @@ All editable website content is stored in the `config/` directory. The JavaScrip
 
 To customize the template:
 
-1. Fork this repository.
-2. Edit the JSON files in `config/`.
-3. Replace the profile image at `images/Ali Habibi.png`, or update the image and favicon paths in the configuration files.
-4. Add or replace project images in `images/` and update the corresponding paths in `config/projects.config.json`.
+1. Replace every `Your Name`, `your-username`, `you@example.com`, and other placeholder value in the JSON files in `config/`.
+2. Replace the profile image at `images/profile-placeholder.svg`, or add your own photo (for example `images/me.jpg`) and update the `image` and `favicon` paths in the configuration files.
+3. Add or replace project images in `images/` (`project-one.svg`, `project-two.svg`, `project-three.svg`) and update the corresponding paths in `config/projects.config.json`.
+4. Add or remove entries in any list (jobs, projects, publications, and so on) by copying an existing entry.
 5. Keep the existing JSON structure so the page loader can render each section correctly.
 
-The `config.js` and source PDF used during the original content preparation are not required by the website and are intentionally not part of the template runtime.
+Optional fields:
+
+- Social links: remove `github`, `linkedin`, `email`, or `googleScholar` from `socialLinks` to hide that icon.
+- Projects: each project can have a `github` link, a `demo` link, or both.
+- CV experience: leave `location` empty to hide it.
 
 ## Run Locally
 

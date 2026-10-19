@@ -1,10 +1,10 @@
 {
     "page": {
-        "title": "CV | Ali Habibi",
-        "favicon": "images/Ali%20Habibi.png"
+        "title": "CV | Your Name",
+        "favicon": "images/profile-placeholder.svg"
     },
     "header": {
-        "name": "Ali Habibi"
+        "name": "Your Name"
     },
     "navigation": {
         "links": [
@@ -19,61 +19,54 @@
         "title": "CV",
         "downloadSection": {
             "title": "View My CV",
-            "description": "View my CV on Google Drive.",
+            "description": "Link to a PDF of your full CV.",
             "button": {
                 "text": "View CV",
-                "link": "https://drive.google.com/drive/folders/1o6IzUlOKWcWaoM57_BwDOFaRuKdZr7Ki?usp=sharing"
+                "link": "https://drive.google.com/"
             }
         },
         "professionalSummary": {
             "title": "Professional Summary",
             "paragraphs": [
-                "MSc candidate in Artificial Intelligence with a research focus on facial verification using Siamese neural networks, achieving 97.6% verification accuracy on the LFW benchmark, published in the Journal of Electrical and Computer Engineering Innovations (JECEI). Hands-on experience applying computer vision, natural language processing, and large language models across several independent projects, detailed below. Seeking to contribute to research teams and stay engaged with emerging trends in these fields.",
-                "Research interests: Computer Vision, Artificial Intelligence, Natural Language Processing, Large Language Models, Cloud Computing."
+                "Write a short professional summary: your current role or degree, your main research or engineering focus, and one or two concrete results you are proud of.",
+                "Research interests: Interest one, Interest two, Interest three."
             ]
         },
         "education": {
             "title": "Education",
             "degrees": [
                 {
-                    "degree": "Master of Science in Artificial Intelligence",
-                    "school": "Islamic Azad University",
-                    "location": "Hamedan, Iran",
-                    "period": "Oct 2024 – present",
-                    "details": ["Cumulative GPA: 18.73/20 (93.65/100)"]
+                    "degree": "Master of Science in Your Field",
+                    "school": "University Name",
+                    "location": "City, Country",
+                    "period": "Sep 2024 – present",
+                    "details": ["GPA: X.XX / 4.00", "Thesis: Your thesis title"]
                 },
                 {
-                    "degree": "Bachelor of Science in Computer Engineering",
-                    "school": "Hamedan University of Technology",
-                    "location": "Hamedan, Iran",
-                    "period": "Oct 2018 – Oct 2023",
-                    "details": [
-                        "Cumulative GPA: 15.11/20 (75/100) | Major GPA (Final Two Years): 16.6/20 (83/100)",
-                        "Bachelor Project Score: 20/20 (100%)"
-                    ]
+                    "degree": "Bachelor of Science in Your Field",
+                    "school": "University Name",
+                    "location": "City, Country",
+                    "period": "Sep 2019 – Jun 2023",
+                    "details": ["GPA: X.XX / 4.00"]
                 }
             ]
         },
         "publications": {
             "title": "Publications & Manuscripts",
             "items": [
-                "Ali Habibi, Mahlagha Afrasiabi, Moniba Chaparian. Face recognition with the Siamese network on celebrity faces. Journal of Electrical and Computer Engineering Innovations (JECEI), Jan 2026."
+                "Your Name, Co-author Name. Title of the paper. Journal or Conference Name, Year."
             ]
         },
         "academicProjects": {
             "title": "Research & Academic Projects",
             "items": [
                 {
-                    "title": "Siamese Network Face Recognition System (Bachelor Project)",
-                    "description": "Designed and implemented a Siamese neural network with triplet-loss optimization and a ResNet backbone in TensorFlow for facial identity verification, achieving 89% validation accuracy with under 1% training loss."
+                    "title": "Project Title",
+                    "description": "One or two sentences on the problem, your method, and the result."
                 },
                 {
-                    "title": "Music Genre Classification Pipeline",
-                    "description": "Developed an audio classification pipeline that transforms raw signals into spectrogram representations and trains a VGG-based convolutional neural network in Keras, achieving 80% training accuracy across ten genre categories."
-                },
-                {
-                    "title": "LLM-Powered Customer Support Agent",
-                    "description": "Developed a retrieval-augmented conversational system integrating Cohere embeddings, LangChain, and GPT-4 to automate multi-step query resolution, demonstrating applied use of large language models in task-oriented dialogue."
+                    "title": "Another Project Title",
+                    "description": "One or two sentences on the problem, your method, and the result."
                 }
             ]
         },
@@ -81,32 +74,22 @@
             "title": "Research & Professional Experience",
             "jobs": [
                 {
-                    "title": "Machine Learning & Computer Vision Researcher (Freelance)",
-                    "company": "Independent Research",
-                    "period": "Jun 2023 – Present",
+                    "title": "Job Title",
+                    "company": "Company or Lab Name",
+                    "period": "Jan 2024 – Present",
+                    "location": "City, Country",
+                    "responsibilities": [
+                        "Describe a key responsibility or achievement.",
+                        "Leave \"location\" empty to hide it."
+                    ]
+                },
+                {
+                    "title": "Research Assistant",
+                    "company": "University Name",
+                    "period": "2022 – 2023",
                     "location": "",
                     "responsibilities": [
-                        "Designed natural language processing pipelines for large-scale social media data collection and classification, applying metaheuristic optimization algorithms (Particle Swarm Optimization, Grey Wolf Optimizer) for feature selection."
-                    ]
-                },
-                {
-                    "title": "Research Assistant — Undergraduate Thesis",
-                    "company": "Hamedan University of Technology",
-                    "period": "2024 – 2025",
-                    "location": "Hamedan, Iran",
-                    "responsibilities": [
-                        "Conducted independent thesis research titled “Face Recognition with Siamese Networks” under the supervision of Dr. Mahlagha Afrasiabi, Department of Computer Engineering.",
-                        "Designed and implemented a Siamese-network verification pipeline using transfer learning with an Xception backbone and contrastive-loss optimization, achieving 97.6% verification accuracy on the LFW benchmark and 96.25% on the ORL dataset."
-                    ]
-                },
-                {
-                    "title": "AI Developer",
-                    "company": "nibbit",
-                    "period": "Feb 2023 – Jun 2023",
-                    "location": "Canada (Remote)",
-                    "responsibilities": [
-                        "Developed a generative AI chatbot using FastAPI and Azure cloud infrastructure, integrating the ChatGPT API to improve client data retrieval efficiency.",
-                        "Designed predictive models on Cosmos DB and NoSQL data to forecast user behavior and long-term usage patterns."
+                        "Describe the research you contributed to and who supervised it."
                     ]
                 }
             ]
@@ -114,39 +97,33 @@
         "technicalSkills": {
             "title": "Technical Skills",
             "items": [
-                "Deep Learning & AI: TensorFlow, Keras, PyTorch, CNNs, Vision Transformers (ViTs), YOLO variants, U-Net, Siamese Networks, Explainable AI (Grad-CAM), LLMs, LangChain, RAG.",
-                "Programming Languages: Python, SQL.",
-                "Data Science & Engineering: NumPy, Pandas, Matplotlib, Scikit-Learn, KNIME, NoSQL, Cosmos DB.",
-                "Software Development, Cloud: Git, FastAPI, REST APIs, Azure, Docker."
+                "Category one: Skill, Skill, Skill.",
+                "Programming Languages: Language, Language.",
+                "Tools: Tool, Tool, Tool."
             ]
         },
         "languages": {
             "title": "Languages",
-            "items": ["English: TOEFL booked for December 2026"]
+            "items": ["English: Fluent", "Another language: Native"]
         },
         "references": {
             "title": "References",
             "items": [
                 {
-                    "name": "Mahlagha Afrasiabi",
-                    "role": "Supervisor of Bachelor Project, Head of Department",
-                    "position": "Assistant Professor, Dept. of Computer Engineering, Hamedan University of Technology"
-                },
-                {
-                    "name": "Hasan Bashiri",
-                    "role": "Faculty Member",
-                    "position": "Assistant Professor, Dept. of Computer Engineering, Hamedan University of Technology"
+                    "name": "Referee Name",
+                    "role": "Relationship to you, e.g. Thesis Supervisor",
+                    "position": "Title, Department, Institution"
                 }
             ]
         }
     },
     "socialLinks": {
-        "github": "https://github.com/tahahb79",
-        "linkedin": "https://www.linkedin.com/in/ali-habibi1379/",
-        "email": "alihabibi.education@gmail.com",
-        "googleScholar": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=jXs8DigAAAAJ"
+        "github": "https://github.com/your-username",
+        "linkedin": "https://www.linkedin.com/in/your-profile/",
+        "email": "you@example.com",
+        "googleScholar": "https://scholar.google.com/"
     },
     "footer": {
-        "lastUpdated": "September 2026"
+        "lastUpdated": "January 2026"
     }
 }

@@ -1,10 +1,10 @@
 {
     "page": {
-        "title": "Resume | Ali Habibi",
-        "favicon": "images/Ali%20Habibi.png"
+        "title": "Resume | Your Name",
+        "favicon": "images/profile-placeholder.svg"
     },
     "header": {
-        "name": "Ali Habibi"
+        "name": "Your Name"
     },
     "navigation": {
         "links": [
@@ -19,37 +19,37 @@
         "title": "Resume",
         "downloadSection": {
             "title": "View My Resume",
-            "description": "View my full resume on Google Drive.",
+            "description": "Link to a PDF of your full resume (Google Drive, Dropbox, or a file in this repository).",
             "button": {
                 "text": "View Resume",
-                "link": "https://drive.google.com/drive/folders/15xC6DXxl8ccIoiBk4S_CaeX3yF4qu7wA"
+                "link": "https://drive.google.com/"
             }
         },
         "experience": {
             "title": "Experience",
             "jobs": [
-                {"title": "Data Scientist", "company": "Freelancer", "period": "August 2023 - Present", "responsibilities": ["Deliver data science and machine learning solutions as an independent freelancer."]},
-                {"title": "Data Scientist | LLM Engineer", "company": "Nibbit", "period": "February 2023 - July 2023", "responsibilities": ["Worked on data science and large language model engineering initiatives."]},
-                {"title": "Django Developer (Internship)", "company": "Mehr-pars", "period": "September 2021 - November 2021", "responsibilities": ["Contributed to backend development using Django."]}
+                {"title": "Job Title", "company": "Company Name", "period": "Jan 2024 - Present", "responsibilities": ["Describe a key responsibility or achievement.", "Use numbers where you can, e.g. reduced build time by 40%."]},
+                {"title": "Previous Job Title", "company": "Previous Company", "period": "Jun 2022 - Dec 2023", "responsibilities": ["Describe what you built, improved, or led."]},
+                {"title": "Intern", "company": "Internship Company", "period": "Jun 2021 - Sep 2021", "responsibilities": ["Describe what you learned and contributed."]}
             ]
         },
         "education": {
             "title": "Profile",
-            "degrees": [{"degree": "Machine Learning and LLM Engineer", "school": "Professional Profile", "period": "3+ years of experience", "focus": "Deep learning, machine learning, full-stack development, LLMs, RAG, tokenizer systems, cloud computing, and MLOps. Education details were not specified in the source configuration."}]
+            "degrees": [{"degree": "Your Professional Title", "school": "Professional Profile", "period": "X+ years of experience", "focus": "Summarize your main areas of expertise in one or two sentences."}]
         },
         "skills": {
             "title": "Skills",
             "categories": {
-                "technical": {"title": "Languages, Frameworks, and Databases", "items": ["Python, Golang, Keras, VGG, Django, Fast-api", "Tensorflow, numpy, pandas, langschain, yolo", "Colab, Power Bi", "MongoDB, CosmosDB, MySQL"]},
-                "soft": {"title": "Platforms and Engineering Practices", "items": ["Docker, Kubernetes, Azure", "CI / CD", "Web scraping, Microservices, API design", "Agile / Scrum", "GPT and Bert Architecture"]}
+                "technical": {"title": "Languages, Frameworks, and Databases", "items": ["Language one, Language two", "Framework one, Framework two", "Database one, Database two"]},
+                "soft": {"title": "Platforms and Engineering Practices", "items": ["Cloud platform, Containers", "CI / CD", "Agile / Scrum"]}
             }
         }
     },
     "socialLinks": {
-        "github": "https://github.com/tahahb79",
-        "linkedin": "https://www.linkedin.com/in/ali-habibi1379/",
-        "email": "alihabibi.education@gmail.com",
-        "googleScholar": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=jXs8DigAAAAJ"
+        "github": "https://github.com/your-username",
+        "linkedin": "https://www.linkedin.com/in/your-profile/",
+        "email": "you@example.com",
+        "googleScholar": "https://scholar.google.com/"
     },
-    "footer": {"lastUpdated": "September 2026"}
+    "footer": {"lastUpdated": "January 2026"}
 }
