@@ -1,0 +1,5 @@
+node_modules/
+.mcp.json
+.kilo/
+_site/
+.DS_Store
