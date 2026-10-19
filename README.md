@@ -146,4 +146,4 @@ The site works with both deployment formats:
 
 ## License
 
-Add the license that best matches your intended use before distributing the template publicly.
+Released under the [MIT License](LICENSE). You are free to use, modify, and distribute this template, including for commercial use, as long as the copyright notice is kept.

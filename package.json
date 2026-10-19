@@ -2,6 +2,7 @@
   "name": "creative-cv",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "build": "tailwindcss -i ./css/main.css -o ./css/output.css",
     "watch": "tailwindcss -i ./css/main.css -o ./css/output.css --watch"
